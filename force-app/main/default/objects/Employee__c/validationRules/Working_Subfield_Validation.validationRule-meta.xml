@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Working_Subfield_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( Working_Field__c , &apos;Facility&apos;)&amp;&amp; 
+ISBLANK( Working_Subfield__c )</errorConditionFormula>
+    <errorDisplayField>Working_Subfield__c</errorDisplayField>
+    <errorMessage>You shoul enter the subfield</errorMessage>
+</ValidationRule>

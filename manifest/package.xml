@@ -36,5 +36,9 @@
         <members>*</members>
         <name>object</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>customObject</name>
+    </types>
     <version>57.0</version>
 </Package>
